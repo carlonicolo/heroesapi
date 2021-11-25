@@ -7,8 +7,7 @@ In order to use this project you need:
 - Java >= 8;
 - install and setup on your local machines the AWS CLI 2;
 - install DynamoDB standalone version.
-
-[src/main/resources/application.properties](src/main/resources/application.properties)
+- use in proper way the application.properties file [src/main/resources/application.properties](src/main/resources/application.properties)
 ```
 aws_access_key_id = don't put your key here, the aws cli key will be used
 aws_secret_access_key = don't put your key but only the field name
